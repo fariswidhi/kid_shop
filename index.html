@@ -20,10 +20,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/3.3/examples/carousel/carousel.css">
 <!--//Custom Theme files -->
 <!--js-->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
+
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
 <!--//js-->
 <!--cart-->
 <script src="js/simpleCart.min.js"></script>
@@ -57,320 +64,144 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--header-->
 	<div class="header">
 
-		<div style="padding: 10px;" class=" navbar navbar-default"><!--header-two-->
-			<div class="container">
-				<div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
-					<h1><a href="index.html">Modern <b>Shoppe</b><span class="tag">Everything for Kids world </span> </a></h1>
+		<div style="padding: 10px;" class=" navbar navbar-default" id="header-top"><!--header-two-->
+			<div class="container container-header">
+				<div class="nav navbar-nav  " style="float: left: ">
+					<button  class="btn btn-primary btn-nav"><i class="fas fa-bars"></i></button>
+					<h1 style="float: left" class="logo-text"><a href="index.html"><b>Akulucu</b><span class="tag">Everything for Kids world </span> </a>
+					</h1>					
+				<div class="pull-right for-mobile">
+					<a href="#"><span style="margin:10px;font-size: 18px;" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>			
 				</div>
-<div class="container-1"  style="float: left;width: 60%;margin: 0 auto;margin-top: 10px;margin-left: 10%;">
-      <span class="icon"><i class="fa fa-search"></i></span>
-      <input type="search" id="search" placeholder="Search..." class="form-control">
-  </div>
+				</div>
 
+				
+					<div class="container-1"  style="float: left;width: 60%;margin: 0 auto;margin-top: 10px;margin-left: 10%;" id="search">
+      <span class="icon"><i class="fas fa-search"></i></span>
+      <input type="search" id="search" placeholder="Search..." >
+  </div>
 				<div class="nav navbar-nav navbar-right header-two-right" style="margin-top: 0px;">
 
-					<div class="header-right cart">
-						<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
-					
-						
+					<div class="header-right cart for-desktop">
+						<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>			
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 
 				<div class="clearfix"> </div>
+
 			</div>
 		</div>
-		<div class="top-nav navbar navbar-default"><!--header-three-->
+		<div class="top-nav navbar navbar-default menu-mobile"   id="menu" > <!--header-three-->
 			<div class="container">
 				<nav class="navbar" role="navigation">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
+				
 					<!--navbar-header-->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav top-nav-info">
-							<li><a href="index.html" class="active">Home</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Baby<b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column multi-column1">
-									<div class="row">
-										<div class="col-sm-4 menu-grids menulist1">
-											<h4>Bath & Care</h4>
-											<ul class="multi-column-dropdown ">
-												<li><a class="list" href="products.html">Diapering</a></li>
-												<li><a class="list" href="products.html">Baby Wipes</a></li>
-												<li><a class="list" href="products.html">Baby Soaps</a></li>
-												<li><a class="list" href="products.html">Lotions & Oils </a></li>
-												<li><a class="list" href="products.html">Powders</a></li>
-												<li><a class="list" href="products.html">Shampoos</a></li>
-											</ul>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Body Wash</a></li>
-												<li><a class="list" href="products.html">Cloth Diapers</a></li>
-												<li><a class="list" href="products.html">Baby Nappies</a></li>
-												<li><a class="list" href="products.html">Medical Care</a></li>
-												<li><a class="list" href="products.html">Grooming</a></li>
-												<li><h6><a class="list" href="products.html">Combo Packs</a></h6></li>
-											</ul>
-										</div>																		
-										<div class="col-sm-2 menu-grids">
-											<h4>Baby Clothes</h4>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Onesies & Rompers</a></li>
-												<li><a class="list" href="products.html">Frocks</a></li>
-												<li><a class="list" href="products.html">Socks & Tights</a></li>
-												<li><a class="list" href="products.html">Sweaters & Caps</a></li>
-												<li><a class="list" href="products.html">Night Wear</a></li>
-												<li><a class="list" href="products.html">Quilts & Wraps</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3 menu-grids">
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Blankets</a></li>
-												<li><a class="list" href="products.html">Gloves & Mittens</a></li>
-												<h4>Shop by Age</h4>
-												<li><a class="list" href="products.html">New Born (0 - 5 M)</a></li>
-												<li><a class="list" href="products.html">5 - 10 Months</a></li>
-												<li><a class="list" href="products.html">10 - 15 Months</a></li>
-												<li><a class="list" href="products.html">15 Months Above</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3 menu-grids">
-											<ul class="multi-column-dropdown">
-												<li><h6><a class="list" href="products.html">Feeding & Nursing</a></h6></li>
-												<h4>Baby Gear</h4>
-												<li><a class="list" href="products.html">Baby Walkers</a></li>
-												<li><a class="list" href="products.html">Strollers</a></li>
-												<li><a class="list" href="products.html">Prams & Toys</a></li>
-												<li><a class="list" href="products.html">Cribs & Cradles</a></li>
-												<li><a class="list" href="products.html">Booster Seats</a></li>
-											</ul>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</ul>
-							</li>
-							<li class="dropdown grid">
-								<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Kids<b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column multi-column2">
-									<div class="row">
-										<div class="col-sm-3 menu-grids">
-											<h4>New Arrivals</h4>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Topwear</a></li>
-												<li><a class="list" href="products.html">Bottomwear</a></li>
-												<li><a class="list" href="products.html">Innerwear</a></li>
-												<li><a class="list" href="products.html">Nightwear</a></li>
-												<li><a class="list" href="products.html">Swimwear</a></li>
-												<li><a class="list" href="products.html">Jumpers</a></li>
-											</ul>
-										</div>																		
-										<div class="col-sm-3 menu-grids">
-											<h4>Boys</h4>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Jeans</a></li>
-												<li><a class="list" href="products.html">Shirts</a></li>
-												<li><a class="list" href="products.html">T-shirts</a></li>
-												<li><a class="list" href="products.html">Dhoti Kurta Sets</a></li>
-												<li><a class="list" href="products.html">Winter wear</a></li>
-												<li><a class="list" href="products.html">Party Wear</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3 menu-grids">
-											<h4>Girls</h4>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Tops</a></li>
-												<li><a class="list" href="products.html">Leggings</a></li>
-												<li><a class="list" href="products.html">Dresses </a></li>
-												<li><a class="list" href="products.html">Skirts</a></li>
-												<li><a class="list" href="products.html">Casual Dresses</a></li>
-												<li><a class="list" href="products.html">Capris & 3/4ths</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-3 menu-grids new-add2">
-											<a href="products.html">
-												<h6>Kids Special</h6>
-												<img src="images/img1.jpg" alt="">
-											</a>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</ul>
-							</li>
-							<li class="dropdown grid">
-								<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Accessories<b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column menu-two multi-column3">
-									<div class="row">
-										<div class="col-sm-4 menu-grids">
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Jewellery</a></li>
-												<li><a class="list" href="products.html">Hair bands & Clips</a></li>
-												<li><a class="list" href="products.html">Bangles </a></li>
-												<li><a class="list" href="products.html">Caps & Belts</a></li>
-												<li><a class="list" href="products.html">Rain wear</a></li>
-												<li><a class="list" href="products.html">Bags</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-8 menu-grids">
-											<a href="products.html">
-												<div class="new-add">
-													<h5>30% OFF <br> Today Only</h5>
-												</div>	
-											</a>
-										</div>	
-										<div class="clearfix"> </div>
-									</div>	
-								</ul>
-							</li>				
-							<li class="dropdown grid">
-								<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Toys <b class="caret"></b></a>
-								<ul class="dropdown-menu multi-column multi-column4">
-									<div class="row">
-										<div class="col-sm-4 menu-grids menulist1">
-											<h4>BABY</h4>
-											<ul class="multi-column-dropdown ">
-												<li><a class="list" href="products.html">Rockers</a></li>
-												<li><a class="list" href="products.html">Rattles</a></li>
-												<li><a class="list" href="products.html">Stroller Toys</a></li>
-												<li><a class="list" href="products.html">Musical Toys </a></li>
-												<li><a class="list" href="products.html">Doll Houses</a></li>
-												<li><a class="list" href="products.html">Play Sets</a></li>
-											</ul>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Toys Dolls</a></li>
-												<li><a class="list" href="products.html">Pacifiers</a></li>
-												<li><a class="list" href="products.html">Building Sets</a></li>
-												<li><a class="list" href="products.html">Bath Toys</a></li>
-												<li><a class="list" href="products.html">Soft Toys</a></li>
-												<li><h6><a class="list" href="products.html">Special Off</a></h6></li>
-											</ul>
-										</div>																		
-										<div class="col-sm-2 menu-grids">
-											<h4>Pretend Play</h4>
-											<ul class="multi-column-dropdown">
-												<li><h6><a class="list" href="products.html">Video Games</a></h6></li>
-												<li><a class="list" href="products.html">Kitchen Sets</a></li>
-												<li><a class="list" href="products.html">Sand Toys</a></li>
-												<li><a class="list" href="products.html">Tool Sets</a></li>
-												<li><a class="list" href="products.html">Bath Toys</a></li>
-												<li><a class="list" href="products.html">Medical Set</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-2 menu-grids">
-											<h4>Outdoor</h4>
-											<ul class="multi-column-dropdown">
-												<li><a class="list" href="products.html">Swimming</a></li>
-												<li><a class="list" href="products.html">Rideons </a></li>
-												<li><a class="list" href="products.html">Scooters</a></li>
-												<li><a class="list" href="products.html">Remote Control</a></li>
-												<li><a class="list" href="products.html">Animals</a></li>
-												<li><a class="list" href="products.html">Make up</a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4 menu-grids">
-											<a href="products.html">
-												<div class="new-add">
-													<h5>30% OFF <br> Today Only</h5>
-												</div>
-											</a>	
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</ul>
-							</li>
-							<li><a href="codes.html">Special Offers</a></li>
-						</ul> 
+					<div class=" navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<button class="btn btn-default btn-close-menu"><i class="fas fa-times"></i></button>
+						<ul class="nav navbar-nav">
+<!--               <li class="active"><a href="#">Home</a></li> -->
+              <li><a href="#">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li >
+                <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact</a></li>
+            </ul>
 						<div class="clearfix"> </div>
 						<!--//navbar-collapse-->
 						<header class="cd-main-header">
-							<ul class="cd-header-buttons">
+						<!-- 	<ul class="cd-header-buttons">
 								<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
-							</ul> <!-- cd-header-buttons -->
+							</ul> <!-- cd-header-buttons --> 
 						</header>
 					</div>
 					<!--//navbar-header-->
 				</nav>
-				<div id="cd-search" class="cd-search">
+			<!-- 	<div id="cd-search" class="cd-search">
 					<form>
 						<input type="search" placeholder="Search...">
+
 					</form>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 	<!--//header-->
 	<!--banner-->
-	<div class="banner">
-		<div class="container">
-			<div class="banner-text">			
-				<div class="col-sm-5 banner-left wow fadeInLeft animated" data-wow-delay=".5s">			
-					<h2>On Entire Fashion range</h2>
-					<h3>Coming Soon </h3>
-					<h4>Our New Designs</h4>
-					<div class="count main-row">
-						<ul id="example">
-							<li><span class="hours">00</span><p class="hours_text">Hours</p></li>
-							<li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
-							<li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
-						</ul>
-							<div class="clearfix"> </div>
-							<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-							<script type="text/javascript">
-								$('#example').countdown({
-									date: '12/24/2020 15:59:59',
-									offset: -8,
-									day: 'Day',
-									days: 'Days'
-								}, function () {
-									alert('Done!');
-								});
-							</script>
-					</div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators bottom-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-				</div>
-				<div class="col-sm-7 banner-right wow fadeInRight animated" data-wow-delay=".5s">			
-					<section class="slider grid">
-						<div class="flexslider">
-							<ul class="slides">
-								<li>
-									<h4>-30%</h4>
-									<img src="images/b1.png" alt="">
-								</li>
-								<li>
-									<h4>-25%</h4>
-									<img src="images/b2.png" alt="">
-								</li>
-								<li>
-									<h4>-32%</h4>
-									<img src="images/b3.png" alt="">
-								</li>
-							</ul>
-						</div>
-					</section>
-					<!--FlexSlider-->
-					<script defer src="js/jquery.flexslider.js"></script>
-					<script type="text/javascript">
-						$(window).load(function(){
-						  $('.flexslider').flexslider({
-							animation: "pagination",
-							start: function(slider){
-							  $('body').removeClass('loading');
-							}
-						  });
-						});
-					</script>
-					<!--End-slider-script-->
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>			
-	<!--//banner-->
+<!--//banner-->
 	<!--new-->
 	<div class="new">
 		<div class="container">
@@ -708,7 +539,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			};
 			
 			$().UItoTop({ easingType: 'easeOutQuart' });
-			
+			$(".btn-nav").click(function(){
+				$(".menu-mobile").toggleClass('is-visible-menu');
+			});
+			$(".btn-close-menu").click(function(){
+				$(".menu-mobile").toggleClass('is-visible-menu');
+			});
+			$(window).scroll(function(){
+				if ($(window).scrollTop() > 500) {
+					// $("#menu").addClass('fixed');
+					// $("#header-top").hide();
+					$("#menu").removeClass("hide");
+					$("#menu").addClass("show");
+				}
+				else{
+					$("#menu").removeClass("show");
+					// $("#menu").addClass("hide");
+					// $(".#menu").removeClass('fixed');
+					// $("#header-top").show();
+					// $("#header-top").hide();
+				}
+			});
 		});
 	</script>
 	<!--//smooth-scrolling-of-move-up-->
@@ -716,5 +567,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     ================================================== -->
     <!--Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "pagination",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					</script>
 </body>
 </html>
